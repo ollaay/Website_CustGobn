@@ -33,7 +33,7 @@ body{
     top:800px;
     left:0px;
     right:0px;
-    height:550px;
+    height:700px;
     text-align:center;
     background-color:rgba(21, 56, 97, 1);
     border-bottom:1px solid #333;    
@@ -43,17 +43,19 @@ body{
    top:0px;
    text-transform:uppercase;
    color:white;
+   font-size:45px;
    font-weight:200;
+   text-decoration:underline;
 }
 
 .list_services{
     list-style:none;
     text-align:center;
     position:absolute;
-    top:90px;
+    top:150px;
     left:0px;
     right:0px;
-    bottom:90px;
+    bottom:150px;
     margin:0;
     padding:0;
 }
@@ -99,5 +101,17 @@ body{
     font-size:15px;
     font-weight:400;
     color:#333;
+}
+/****************************************************************************/
+/****************************** LINE A PROPOS *******************************/
+#cadre_a_propos{
+    position:absolute;
+    top:1500px;
+    left:0px;
+    right:0px;
+    height:700px;
+    text-align:center;
+    background-color:rgba(62, 122, 174, 1);
+    border-bottom:1px solid #333;     
 }
 /****************************************************************************/
