@@ -68,7 +68,9 @@ body{
 }
 .list_services li{
     display:inline-block;
-    width:350px;
+    position:relative;
+    top:0px;
+    width:300px;
     height:100%;
     text-transform:uppercase;
     font-weight:200;
@@ -76,6 +78,14 @@ body{
     margin-right:10px;
     border:1px solid white;
     background-color:#dcdcdc;
+}
+#cadre_neuf{
+    position:relative;
+    top:-5px;
+}
+#cadre_devis{
+    position:relative;
+    top:-8px;    
 }
 
 #cadre_photo_devis{
@@ -217,11 +227,73 @@ body{
     height:100%;
     margin-left:2%;
     margin-right:2%;
+    text-align:center;
     border:1px solid #333;
     box-shadow: 0 2px 20px grey;
 }
+#cadre_proj_1{
+    color:transparent;
+}
+#cadre_proj_1 p{
+    z-index:99;
+    position:relative;
+    top:-220px;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:400;
+}
+#cadre_proj_2{
+    color:transparent;
+}
+#cadre_proj_2 p{
+    z-index:99;
+    position:relative;
+    top:-220px;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:400;
+}
+#cadre_proj_3{
+    color:transparent;
+}
+#cadre_proj_3 p{
+    z-index:99;
+    position:relative;
+    top:-220px;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:400;
+}
+#cadre_proj_4{
+    color:transparent;
+}
+#cadre_proj_4 p{
+    z-index:99;
+    position:relative;
+    top:-220px;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:400;
+}
 .cadre_det_proj:hover{
     cursor:pointer;
+}
+#photo_proj_1{
+    z-index:90;
+    width:100%;
+    height:100%;
+}
+#photo_proj_2{
+    width:100%;
+    height:100%;
+}
+#photo_proj_3{
+    width:100%;
+    height:100%;
+}
+#photo_proj_4{
+    width:100%;
+    height:100%;
 }
 /****************************************************************************/
 /************************ LINE CONTACT **********************************/
@@ -478,5 +550,30 @@ body{
     text-align:left;
     font-size:13px;
     font-weight:300;
+}
+/****************************************************************************/
+
+/**************************** SIGNATURE ********************************/
+#cadre_signature{
+    position:absolute;
+    top:4000px;
+    height:40px;
+    left:0px;
+    right:0px;
+    text-align:center;
+    background-color:#222;
+}
+#cadre_signature p{
+    position:relative;
+    top:0px;
+    font-size:12px;
+    color:white;
+}
+#cadre_signature a{
+    position:relative;
+    top:0px;
+    font-size:12px;
+    color:grey;
+    text-decoration:none;
 }
 /****************************************************************************/

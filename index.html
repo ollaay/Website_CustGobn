@@ -12,6 +12,8 @@
         <!-- The JS-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type='text/javascript' src="JS/index.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1DQXlfkyTVAGs9u2vnsKdyUhpHlxeos8&callback=initMap"
+        async defer></script>
     </head>
 
     <body>
@@ -36,16 +38,16 @@
                 <div id="sep_1"></div>
 
                 <ul class="list_services">
-                    <li>
+                    <li id="cadre_devis">
                         <img src="IMG/photo_devis.jpg" id="cadre_photo_devis">
                         <h2>Réalisation de devis</h2>
                     </li>
-                    <li>
-                        <img src="IMG/photo_devis.jpg" id="cadre_photo_devis">
+                    <li id="cadre_neuf">
+                        <img src="IMG/photo_neuf.jpeg" id="cadre_photo_devis">
                         <h3>Travaux Neuf</h3>
                     </li>
-                    <li>
-                        <img src="IMG/photo_devis.jpg" id="cadre_photo_devis">
+                    <li id="cadre_renov">
+                        <img src="IMG/photo_renov.jpg" id="cadre_photo_devis">
                         <h4>Travaux Neuf & Rénovation</h4>
                     </li>
                 </ul>
@@ -75,20 +77,24 @@
             <ul class="ensemble_projet">
                 <li>
                     <div id="cadre_proj_1" class="cadre_det_proj">
-
+                        <img src="IMG/photo_proj_1.jpg" id="photo_proj_1">
+                        <p>PROJET 1</p>
                     </div>
 
                     <div id="cadre_proj_2" class="cadre_det_proj">
-                        
+                        <img src="IMG/photo_proj_2.jpg" id="photo_proj_2">
+                        <p>PROJET 2</p>
                     </div>
                 </li>
                 <li>
                     <div id="cadre_proj_3" class="cadre_det_proj">
-
+                        <img src="IMG/photo_proj_3.jpg" id="photo_proj_3">
+                        <p>PROJET 3</p>
                     </div>
 
                     <div id="cadre_proj_4" class="cadre_det_proj">
-                        
+                        <img src="IMG/photo_proj_4.jpg" id="photo_proj_4">
+                        <p>PROJET 4</p>
                     </div>
                 </li>
             </ul>
@@ -143,6 +149,10 @@
                 </div>
 
 
+        </div>
+
+        <div id='cadre_signature'>
+            <p>Copyright 2017-2018 | Tout droits réservés | Produit par <a href="#">CockpIT</a></p>
         </div>
     </body>
 </html>
