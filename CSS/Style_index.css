@@ -47,6 +47,14 @@ body{
    font-weight:100;
 }
 
+#sep_1{
+    position:relative;
+    margin:auto;
+    top:-15px;
+    width:50%;
+    height:3px;
+    background-color:white;
+}
 .list_services{
     list-style:none;
     text-align:center;
@@ -129,6 +137,14 @@ body{
     font-weight:100;
     color:white;
 }
+#sep_2{
+    position:absolute;
+    top:85px;
+    width:40%;
+    height:3px;
+    left:20%;
+    background-color:white;
+}
 #cadre_text_a_prop p{
     position:absolute;
     top:100px;
@@ -170,6 +186,14 @@ body{
     color:#333;
     font-size:45px;
     font-weight:100;     
+}
+#sep_3{
+    position:relative;
+    top:-20px;
+    margin:auto;
+    height:3px;
+    width:50%;
+    background-color:#333;
 }
 .ensemble_projet{
     list-style:none;
@@ -219,7 +243,14 @@ body{
     color:#333;
     font-weight:100;
 }
-
+#sep_4{
+    position:relative;
+    margin:auto;
+    top:-20px;
+    width:50%;
+    height:3px;
+    background-color:#333;
+}
 #cadre_map{
     position:relative;
     width:80%;
@@ -233,14 +264,12 @@ body{
     top:50px;
     width:80%;
     margin:auto;
-    height:550px;
-    border:1px solid #333;   
+    height:550px; 
 }
 #cadre_nous_ecrire{
     position:absolute;
     width:50%;
     height:100%;
-    border:1px solid orange;
 }
 #cadre_nous_ecrire h2{
     position:absolute;
@@ -255,13 +284,21 @@ body{
     font-size:16px;
     font-weight:300;
 }
+#mini_sep_1{
+    position:absolute;
+    top:110px;
+    width:30%;
+    height:2px; 
+    background-color:#333;    
+}
+
 #cadre_form{
     position:absolute;
     top:140px;
     width:50%;
-    bottom:20px;
-    border:1px solid red;    
+    bottom:20px;    
 }
+
 /** FORM**/
 #input_name{
     width:100%;
@@ -370,11 +407,76 @@ body{
 
 
 #cadre_adresse{
-    position:relative;
-    top:50px;
-    width:80%;
-    margin:auto;
-    height:550px;
-    border:1px solid #333;    
+    position:absolute;
+    top:0px;
+    left:60%;
+    width:40%;
+    height:100%;  
+}
+#cadre_adresse h3{
+    position:absolute;
+    top:0px;
+    font-size:25px;
+    font-weight:600; 
+}
+#cadre_adresse h4{
+    position:absolute;
+    top:40px;
+    text-align:left;
+    font-size:16px;
+    font-weight:300;
+}
+#cadre_adresse h5{
+    position:absolute;
+    top:80px;
+    text-align:left;
+    font-size:16px;
+    font-weight:200;
+}
+#cadre_adresse h6{
+    position:absolute;
+    top:95px;
+    text-align:left;
+    font-size:16px;
+    font-weight:200;
+}
+
+#mini_sep_2{
+    position:absolute;
+    top:170px;
+    width:60%; 
+    height:2px;
+    background-color:#333;  
+}
+#cadre_adresse h7{
+    position:absolute;
+    top:185px;
+    left:0px;
+    font-size:25px;
+    font-weight:600;
+}
+#mini_sep_3{
+    position:absolute;
+    top:230px;
+    width:60%; 
+    height:2px;
+    background-color:#333;  
+}
+
+#cadre_adresse h8{
+    position:absolute;
+    top:240px;
+    left:0px;
+    font-size:25px;
+    font-weight:600;
+}
+
+#cadre_adresse h9{
+    position:absolute;
+    top:280px;
+    left:0px;
+    text-align:left;
+    font-size:13px;
+    font-weight:300;
 }
 /****************************************************************************/
