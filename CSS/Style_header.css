@@ -29,11 +29,12 @@
     font-weight:200;
     font-size:15px;
 }
-.list_menu li p{
+.list_menu li a{
     position:relative;
-    top:15px;
+    top:27px;
+    text-decoration:none;
 }
-.list_menu li p:hover{
+.list_menu li a:hover{
     cursor:pointer;
     color:grey;
 }
