@@ -1,23 +1,75 @@
+body{
+    font-family:"Open Sans", sans-serif;
+}
+
 #cadre_logo_principal{
     z-index:98;
     position:absolute;
     top:100px;
     left:0px;
     right:0px;
-    height:600px;
+    height:700px;
     text-align:center;
     border-bottom:1px solid #333;
 }
 #icon_ent{
     height:200px;
 }
+/**************************** LINE SERVICES *****************************/
 #cadre_services{
     position:absolute;
-    top:700px;
+    top:800px;
     left:0px;
     right:0px;
-    height:600px;
+    height:550px;
     text-align:center;
     background-color:rgba(21, 56, 97, 1);
     border-bottom:1px solid #333;    
 }
+#cadre_services h1{
+   position:relative;
+   top:0px;
+   text-transform:uppercase;
+   color:white;
+   font-weight:200;
+}
+
+.list_services{
+    list-style:none;
+    text-align:center;
+    position:absolute;
+    top:90px;
+    left:0px;
+    right:0px;
+    bottom:90px;
+    margin:0;
+    padding:0;
+}
+.list_services li{
+    display:inline-block;
+    width:20%;
+    height:100%;
+    text-transform:uppercase;
+    font-weight:200;
+    font-size:15px;
+    border:2px solid white;
+    margin-left:5%;
+    background-color:#dcdcdc;
+}
+
+#cadre_photo_devis{
+    position:relative;
+    top:0px;
+    width:100%;
+    height:50%;
+    border-bottom:1px solid #333;
+}
+.list_services li h2{
+    position:relative;
+    top:0px;;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight:300;
+    color:#333;
+}
+/****************************************************************************/
