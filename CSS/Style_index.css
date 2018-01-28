@@ -200,3 +200,15 @@ body{
     cursor:pointer;
 }
 /****************************************************************************/
+/************************ LINE CONTACT **********************************/
+#cadre_contact{
+    position:absolute;
+    top:4200px;
+    left:0px;
+    right:0px;
+    height:1000px;
+    text-align:center;
+    background-color:#999;
+    border-bottom:1px solid #333; 
+}
+/****************************************************************************/
