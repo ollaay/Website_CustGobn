@@ -193,3 +193,11 @@ function remplissage_norm(){
 function retour_proj(){
     $('#btn_projets').click();
 }
+
+function open_menu_smart(){
+    document.getElementById('smartphone_menu').style.display='block';   
+}
+
+function close_menu_smart(){
+    document.getElementById('smartphone_menu').style.display='none';   
+}

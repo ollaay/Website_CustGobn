@@ -1,6 +1,9 @@
 #header_st{
     display:none;
 }
+#smartphone_menu{
+    display:none;    
+}
 #header{
     z-index:99;
     position:fixed;
@@ -56,7 +59,68 @@
     left:0px;
     height:20%;
     right:0px;
+    box-shadow: 0 2px 80px black;
     background-image:linear-gradient(rgba(62, 122, 174, 1), rgba(21, 56, 97, 1));
+}
+#btn_menu{
+    position:absolute;
+    top:5%;
+    height:90%;
+    right:5%;
+    width:25%;
+    text-align:center;
+}
+#icon_menu{
+    position:relative;
+    top:15%;
+    width:60%;
+    height:70%;
+}
+#icon_menu:hover{
+    cursor:pointer;
+}
+#smartphone_menu{
+    display:none;
+    z-index:100;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-image:linear-gradient(rgba(62, 122, 174, 1), rgba(21, 56, 97, 1));   
+}
+#btn_close{
+    position:absolute;
+    top:1%;
+    height:18%;
+    right:5%;
+    width:25%;
+    text-align:center;
+}
+#icon_close_menu{
+    position:relative;
+    top:15%;
+    width:60%;
+    height:70%;   
+}
+
+#menu_smart{
+    list-style:none;
+    position:absolute;
+    top:19%;
+    left:10%;
+    height:60%;
+    width:80%;
+    padding:0;
+    margin:0;
+    border:1px solid white;
+}
+#menu_smart li{
+    position:relative;
+    top:0px;
+    height:30%;
+    text-align:center;
+    border-bottom:1px solid orange;
 }
 }
 
