@@ -14,9 +14,9 @@
  
     $to = "olla.anthony@gmail.com";
  
-    $subject = $objet;
+    $subject = "MESSAGE GOBINOLLA.FR:".$objet;
  
-    $message = 'Message envoyé depuis votre site internet:'."\n".'Emetteur:'.$nom_emeteur."\n".$text_message;
+    $message = 'Message envoyé depuis votre site internet:'."\n".'Emetteur:'.$nom_emeteur."\n".'Message:'.$text_message;
  
     $headers = "From:" . $from;
  
