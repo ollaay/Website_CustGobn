@@ -126,7 +126,7 @@ $(document).ready(function() {
 
         var page = "#cadre_services"; // Page cible
         var speed = 750; // Durée de l'animation (en ms)
-        $('html, body').animate( { scrollTop: ($(page).offset().top-350) }, speed ); // Go
+        $('html, body').animate( { scrollTop: ($(page).offset().top-300) }, speed ); // Go
         return false;
     });
 
@@ -141,7 +141,7 @@ $(document).ready(function() {
 
         var page = "#cadre_a_propos"; // Page cible
         var speed = 750; // Durée de l'animation (en ms)
-        $('html, body').animate( { scrollTop: ($(page).offset().top-350) }, speed ); // Go
+        $('html, body').animate( { scrollTop: ($(page).offset().top-300) }, speed ); // Go
         return false;
     });
 
@@ -156,7 +156,7 @@ $(document).ready(function() {
 
         var page = "#cadre_projet"; // Page cible
         var speed = 750; // Durée de l'animation (en ms)
-        $('html, body').animate( { scrollTop: ($(page).offset().top-350) }, speed ); // Go
+        $('html, body').animate( { scrollTop: ($(page).offset().top-300) }, speed ); // Go
         return false;
     });
 
@@ -171,7 +171,7 @@ $(document).ready(function() {
 
         var page = "#cadre_contact"; // Page cible
         var speed = 750; // Durée de l'animation (en ms)
-        $('html, body').animate( { scrollTop: ($(page).offset().top-350) }, speed ); // Go
+        $('html, body').animate( { scrollTop: ($(page).offset().top-300) }, speed ); // Go
         return false;
     });
 });
@@ -270,10 +270,58 @@ function retour_proj(){
 
 function open_menu_smart(){
     document.getElementById('smartphone_menu').style.display='block';
+    document.body.style.overflowY = "hidden";
     var speed = 0; // Durée de l'animation (en ms)
     $('html, body').animate( { scrollTop: 0 }, speed ); // Go 
 }
 
 function close_menu_smart(){
     document.getElementById('smartphone_menu').style.display='none';   
+}
+
+
+function envoi_mail(){
+
+    $.ajax({
+        type: 'POST',
+        url: 'PHP/envoi_mail_contact.php',
+        data:'mail_emetteur=' + $('#input_mail').val()+ '&objet='+$('#input_objet').val() + '&message='+ $('#text_message').val() + '&nom_emetteur='+$('#input_name').val(),
+        success: function(data) {
+        alert('Votre message à bien été envoyé');
+        },
+        error: function() {
+        }
+    });
+}
+
+function btn_envoyer(){
+
+    /** Contrôle de la saisie des champs */
+
+    var test_nom=0;
+    var test_mail=0;
+    var test_objet=0;
+    var test_message=0;
+
+    if($('#input_name').val()!=''){
+        test_nom=1;
+    }
+    if($('#input_mail').val()!=''){
+        test_mail=1;        
+    }
+    if($('#input_objet').val()!=''){
+        test_objet=1;        
+    }
+    if($('#text_message').val()!=''){
+        test_message=1;       
+    }
+    /*************************************/
+
+    /** ENVOI DU MAIL  */
+    if(test_nom==1 && test_mail==1 && test_objet==1 && test_message==1){
+        envoi_mail();
+    }else{
+        alert('Veuillez finr de compléter l\'ensemble des champs');
+    }
+    
 }
