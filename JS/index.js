@@ -104,6 +104,9 @@ $(document).ready(function() {
 
     $('#btn_acc_menu_smartphone').on('click', function() { // Au clic sur un élément
 
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
         if(document.getElementById('smartphone_menu').style.display=="block"){
             close_menu_smart();
         }
@@ -114,6 +117,9 @@ $(document).ready(function() {
 
     $('#btn_serv_menu_smartphone').on('click', function() { // Au clic sur un élément
 
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
         if(document.getElementById('smartphone_menu').style.display=="block"){
             close_menu_smart();
         }
@@ -126,6 +132,9 @@ $(document).ready(function() {
 
     $('#btn_a_prop_menu_smartphone').on('click', function() { // Au clic sur un élément
 
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
         if(document.getElementById('smartphone_menu').style.display=="block"){
             close_menu_smart();
         }
@@ -138,6 +147,9 @@ $(document).ready(function() {
 
     $('#btn_proj_menu_smartphone').on('click', function() { // Au clic sur un élément
 
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
         if(document.getElementById('smartphone_menu').style.display=="block"){
             close_menu_smart();
         }
@@ -150,6 +162,9 @@ $(document).ready(function() {
 
     $('#btn_contact_menu_smartphone').on('click', function() { // Au clic sur un élément
 
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
         if(document.getElementById('smartphone_menu').style.display=="block"){
             close_menu_smart();
         }
