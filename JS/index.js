@@ -123,6 +123,42 @@ $(document).ready(function() {
         $('html, body').animate( { scrollTop: ($(page).offset().top-350) }, speed ); // Go
         return false;
     });
+
+    $('#btn_a_prop_menu_smartphone').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('smartphone_menu').style.display=="block"){
+            close_menu_smart();
+        }
+
+        var page = "#cadre_a_propos"; // Page cible
+        var speed = 750; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: ($(page).offset().top-350) }, speed ); // Go
+        return false;
+    });
+
+    $('#btn_proj_menu_smartphone').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('smartphone_menu').style.display=="block"){
+            close_menu_smart();
+        }
+
+        var page = "#cadre_projet"; // Page cible
+        var speed = 750; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: ($(page).offset().top-350) }, speed ); // Go
+        return false;
+    });
+
+    $('#btn_contact_menu_smartphone').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('smartphone_menu').style.display=="block"){
+            close_menu_smart();
+        }
+
+        var page = "#cadre_contact"; // Page cible
+        var speed = 750; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: ($(page).offset().top-350) }, speed ); // Go
+        return false;
+    });
 });
 
 function initMap() {
@@ -218,7 +254,9 @@ function retour_proj(){
 }
 
 function open_menu_smart(){
-    document.getElementById('smartphone_menu').style.display='block';   
+    document.getElementById('smartphone_menu').style.display='block';
+    var speed = 0; // Durée de l'animation (en ms)
+    $('html, body').animate( { scrollTop: 0 }, speed ); // Go 
 }
 
 function close_menu_smart(){
