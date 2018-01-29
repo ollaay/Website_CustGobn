@@ -16,7 +16,7 @@
  
     $subject = $objet;
  
-    $message = 'Message envoyé depuis votre site internet:'.$text_message;
+    $message = 'Message envoyé depuis votre site internet:'."\n".'Emetteur:'.$nom_emeteur."\n".$text_message;
  
     $headers = "From:" . $from;
  

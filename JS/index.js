@@ -287,7 +287,15 @@ function envoi_mail(){
         url: 'PHP/envoi_mail_contact.php',
         data:'mail_emetteur=' + $('#input_mail').val()+ '&objet='+$('#input_objet').val() + '&message='+ $('#text_message').val() + '&nom_emetteur='+$('#input_name').val(),
         success: function(data) {
-        alert('Votre message à bien été envoyé');
+
+            /*** RAZ DES CHAMPS ** */  
+            document.getElementById('input_name').value="";
+            document.getElementById('input_mail').value="";
+            document.getElementById('input_objet').value="";
+            document.getElementById('text_message').value="";
+            /**********************/
+            alert('Votre message à bien été envoyé');
+
         },
         error: function() {
         }
@@ -323,5 +331,7 @@ function btn_envoyer(){
     }else{
         alert('Veuillez finr de compléter l\'ensemble des champs');
     }
+
+
     
 }
