@@ -1,5 +1,9 @@
 $(document).ready(function() {
     $('#btn_accueil').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
         var speed = 750; // Durée de l'animation (en ms)
         $('html, body').animate( { scrollTop: 0 }, speed ); // Go
         return false;
@@ -13,6 +17,11 @@ $(document).ready(function() {
     });
 
     $('#btn_Services').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
+
         var page = $(this).attr('href'); // Page cible
         var speed = 750; // Durée de l'animation (en ms)
         $('html, body').animate( { scrollTop: ($(page).offset().top-80)}, speed ); // Go
@@ -20,6 +29,11 @@ $(document).ready(function() {
     });
 
     $('#btn_a_propos').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
+
         var page = $(this).attr('href'); // Page cible
         var speed = 750; // Durée de l'animation (en ms)
         $('html, body').animate( { scrollTop: $(page).offset().top-80}, speed ); // Go
@@ -27,6 +41,11 @@ $(document).ready(function() {
     });
 
     $('#btn_projets').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
+
         var page = $(this).attr('href'); // Page cible
         var speed = 750; // Durée de l'animation (en ms)
         $('html, body').animate( { scrollTop: $(page).offset().top-80}, speed ); // Go
@@ -34,6 +53,11 @@ $(document).ready(function() {
     });
 
     $('#btn_contact').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('cadre_logo_principal').style.display=="none"){
+            remplissage_norm();
+        }
+
         var page = $(this).attr('href'); // Page cible
         var speed = 750; // Durée de l'animation (en ms)
         $('html, body').animate( { scrollTop: $(page).offset().top-80}, speed ); // Go
@@ -75,7 +99,7 @@ $(document).ready(function() {
         document.getElementById('cadre_proj_4').style.color='transparent';
         document.getElementById('photo_proj_4').style.opacity='1';
     });
-    remplissage_projet_1();
+
 });
 
 function initMap() {
@@ -108,6 +132,48 @@ function remplissage_projet_1(){
     document.getElementById('cadre_signature').style.display='none';
 
     document.getElementById('cadre_projet_1').style.display='block';
+    document.getElementById('cadre_projet_2').style.display='none';
+    document.getElementById('cadre_projet_3').style.display='none';
+    document.getElementById('cadre_projet_4').style.display='none';
+}
+function remplissage_projet_2(){
+    document.getElementById('cadre_logo_principal').style.display='none';
+    document.getElementById('cadre_services').style.display='none';
+    document.getElementById('cadre_a_propos').style.display='none';
+    document.getElementById('cadre_projet').style.display='none';
+    document.getElementById('cadre_contact').style.display='none';
+    document.getElementById('cadre_signature').style.display='none';
+
+    document.getElementById('cadre_projet_1').style.display='none';
+    document.getElementById('cadre_projet_2').style.display='block';
+    document.getElementById('cadre_projet_3').style.display='none';
+    document.getElementById('cadre_projet_4').style.display='none';
+}
+function remplissage_projet_3(){
+    document.getElementById('cadre_logo_principal').style.display='none';
+    document.getElementById('cadre_services').style.display='none';
+    document.getElementById('cadre_a_propos').style.display='none';
+    document.getElementById('cadre_projet').style.display='none';
+    document.getElementById('cadre_contact').style.display='none';
+    document.getElementById('cadre_signature').style.display='none';
+
+    document.getElementById('cadre_projet_1').style.display='none';
+    document.getElementById('cadre_projet_2').style.display='none';
+    document.getElementById('cadre_projet_3').style.display='block';
+    document.getElementById('cadre_projet_4').style.display='none';
+}
+function remplissage_projet_4(){
+    document.getElementById('cadre_logo_principal').style.display='none';
+    document.getElementById('cadre_services').style.display='none';
+    document.getElementById('cadre_a_propos').style.display='none';
+    document.getElementById('cadre_projet').style.display='none';
+    document.getElementById('cadre_contact').style.display='none';
+    document.getElementById('cadre_signature').style.display='none';
+
+    document.getElementById('cadre_projet_1').style.display='none';
+    document.getElementById('cadre_projet_2').style.display='none';
+    document.getElementById('cadre_projet_3').style.display='none';
+    document.getElementById('cadre_projet_4').style.display='block';
 }
 
 function remplissage_norm(){
@@ -119,4 +185,11 @@ function remplissage_norm(){
     document.getElementById('cadre_signature').style.display='block';
 
     document.getElementById('cadre_projet_1').style.display='none';
+    document.getElementById('cadre_projet_2').style.display='none';
+    document.getElementById('cadre_projet_3').style.display='none';
+    document.getElementById('cadre_projet_4').style.display='none';
+}
+
+function retour_proj(){
+    $('#btn_projets').click();
 }

@@ -765,15 +765,372 @@ body{
 /*** BTN ***/
 #btn_retour{
     position:absolute;
-    bottom:80px;
+    bottom:110px;
+    left:15%;
     width:100px;
     height:40px;
     color:orange;
     text-align:center;
     background-color:#333;
 }
+#btn_retour:hover{
+    cursor:pointer;
+}
+#btn_retour:active{
+    cursor:pointer;
+    position:absolute;
+    bottom:109px;
+}
 #btn_retour p{
     position:relative;
     top:0px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:300;
+}
+
+/********* PROJET 2 ***********/
+#cadre_projet_2{
+    display:none;
+    position:absolute;
+    top:80px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+#line_title_proj_2{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:150px;
+    background-color:#f5f5f5;  
+}
+#line_title_proj_2 h1{
+    position:absolute;
+    top:15px;
+    left:15%;
+    font-size:40px;
+    font-weight:200;
+    text-transform:uppercase;
+
+}
+.separateur_title{
+    position:absolute;
+    top:85px;
+    left:15%;
+    width:40%;
+    height:2px;
+    background-color:rgba(62, 122, 174, 1);
+}
+#cadre_text_proj_2{
+    position:absolute;
+    top:150px;
+    left:0px;
+    bottom:30px;
+    width:50%;
+}
+#cadre_text_proj_2 p{
+    position:absolute;
+    top:5%;
+    left:30%;
+    width:60%;
+    height:80%;
+    margin:0;
+    padding:0;
+    font-weight:300;
+    text-align:justify;
+}
+#cadre_photos_proj_2{
+    position:absolute;
+    top:150px;
+    left:50%;
+    bottom:30px;
+    width:50%;
+}
+.photos_proj{
+    position:absolute;
+    top:5%;
+    left:10%;
+    width:60%;
+    height:80%;
+    text-align:justify;  
+}
+
+#cadre_mini_signature{
+    position:absolute;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align:center;
+    background-color:#333;
+}
+#cadre_mini_signature p{
+    color:white;
+    font-size:10px;
+}
+#cadre_mini_signature a{
+    color:#dcdcdc;
+    text-decoration:none;
+
+}
+
+/*** BTN ***/
+#btn_retour{
+    position:absolute;
+    bottom:110px;
+    left:15%;
+    width:100px;
+    height:40px;
+    color:orange;
+    text-align:center;
+    background-color:#333;
+}
+#btn_retour:hover{
+    cursor:pointer;
+}
+#btn_retour:active{
+    cursor:pointer;
+    position:absolute;
+    bottom:109px;
+}
+#btn_retour p{
+    position:relative;
+    top:0px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:300;
+}
+
+/********* PROJET 3 ***********/
+#cadre_projet_3{
+    display:none;
+    position:absolute;
+    top:80px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+#line_title_proj_3{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:150px;
+    background-color:#f5f5f5;  
+}
+#line_title_proj_3 h1{
+    position:absolute;
+    top:15px;
+    left:15%;
+    font-size:40px;
+    font-weight:200;
+    text-transform:uppercase;
+
+}
+.separateur_title{
+    position:absolute;
+    top:85px;
+    left:15%;
+    width:40%;
+    height:2px;
+    background-color:rgba(62, 122, 174, 1);
+}
+#cadre_text_proj_3{
+    position:absolute;
+    top:150px;
+    left:0px;
+    bottom:30px;
+    width:50%;
+}
+#cadre_text_proj_3 p{
+    position:absolute;
+    top:5%;
+    left:30%;
+    width:60%;
+    height:80%;
+    margin:0;
+    padding:0;
+    font-weight:300;
+    text-align:justify;
+}
+#cadre_photos_proj_3{
+    position:absolute;
+    top:150px;
+    left:50%;
+    bottom:30px;
+    width:50%;
+}
+.photos_proj{
+    position:absolute;
+    top:5%;
+    left:10%;
+    width:60%;
+    height:80%;
+    text-align:justify;  
+}
+
+#cadre_mini_signature{
+    position:absolute;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align:center;
+    background-color:#333;
+}
+#cadre_mini_signature p{
+    color:white;
+    font-size:10px;
+}
+#cadre_mini_signature a{
+    color:#dcdcdc;
+    text-decoration:none;
+
+}
+
+/*** BTN ***/
+#btn_retour{
+    position:absolute;
+    bottom:110px;
+    left:15%;
+    width:100px;
+    height:40px;
+    color:orange;
+    text-align:center;
+    background-color:#333;
+}
+#btn_retour:hover{
+    cursor:pointer;
+}
+#btn_retour:active{
+    cursor:pointer;
+    position:absolute;
+    bottom:109px;
+}
+#btn_retour p{
+    position:relative;
+    top:0px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:300;
+}
+
+/********* PROJET 4 ***********/
+#cadre_projet_4{
+    display:none;
+    position:absolute;
+    top:80px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+#line_title_proj_4{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:150px;
+    background-color:#f5f5f5;  
+}
+#line_title_proj_4 h1{
+    position:absolute;
+    top:15px;
+    left:15%;
+    font-size:40px;
+    font-weight:200;
+    text-transform:uppercase;
+
+}
+.separateur_title{
+    position:absolute;
+    top:85px;
+    left:15%;
+    width:40%;
+    height:2px;
+    background-color:rgba(62, 122, 174, 1);
+}
+#cadre_text_proj_4{
+    position:absolute;
+    top:150px;
+    left:0px;
+    bottom:30px;
+    width:50%;
+}
+#cadre_text_proj_4 p{
+    position:absolute;
+    top:5%;
+    left:30%;
+    width:60%;
+    height:80%;
+    margin:0;
+    padding:0;
+    font-weight:300;
+    text-align:justify;
+}
+#cadre_photos_proj_4{
+    position:absolute;
+    top:150px;
+    left:50%;
+    bottom:30px;
+    width:50%;
+}
+.photos_proj{
+    position:absolute;
+    top:5%;
+    left:10%;
+    width:60%;
+    height:80%;
+    text-align:justify;  
+}
+
+#cadre_mini_signature{
+    position:absolute;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align:center;
+    background-color:#333;
+}
+#cadre_mini_signature p{
+    color:white;
+    font-size:10px;
+}
+#cadre_mini_signature a{
+    color:#dcdcdc;
+    text-decoration:none;
+
+}
+
+/*** BTN ***/
+#btn_retour{
+    position:absolute;
+    bottom:110px;
+    left:15%;
+    width:100px;
+    height:40px;
+    color:orange;
+    text-align:center;
+    background-color:#333;
+}
+#btn_retour:hover{
+    cursor:pointer;
+}
+#btn_retour:active{
+    cursor:pointer;
+    position:absolute;
+    bottom:109px;
+}
+#btn_retour p{
+    position:relative;
+    top:0px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:300;
 }
 /*****************************************************************/
+
+
+/********************************************************* PARTIE SMARTPHONE *************************************************************/
+
+
+/********************************************************************************************************************************************/
