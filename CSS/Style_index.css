@@ -1131,7 +1131,1089 @@ body{
 
 
 /********************************************************* PARTIE SMARTPHONE *************************************************************/
-@media screen (max-width: 1100px) {
+@media only screen and (max-device-width:980px) {
+
+/********************** LINE ENTETE ******************************/
+#cadre_logo_principal{
+    z-index:98;
+    position:absolute;
+    top:450px;
+    left:0px;
+    right:0px;
+    height:700px;
+    text-align:center;
+    border-bottom:1px solid #333;
+}
+#icon_ent{
+    height:500px;
+}
+#cadre_logo_principal h1{
+    position:relative;
+    top:0px;
+    text-transform:uppercase;
+    font-weight:200;
+    color:rgba(43, 102, 160, 1);
+}
+
+#cadre_corps_etat{
+	display:none;
+    position:relative;
+    margin:auto;
+    width:70%;
+    height:150px;
+}
+
+#icon_fleche{
+    position:relative;
+    width:80px;
+}
+
+#cadre_rs{
+	display:none;
+}
+/**************************** LINE SERVICES *****************************/
+#cadre_services{
+    position:absolute;
+    top:1150px;
+    left:0px;
+    right:0px;
+    height:3600px;
+    text-align:center;
+    background-color:rgba(21, 56, 97, 1);
+    border-bottom:1px solid #333;    
+}
+#cadre_services h1{
+   position:relative;
+   top:0px;
+   text-transform:uppercase;
+   color:white;
+   font-size:105px;
+   font-weight:100;
+}
+
+#sep_1{
+    position:relative;
+    margin:auto;
+    top:-15px;
+    width:50%;
+    height:3px;
+    background-color:white;
+}
+.list_services{
+    list-style:none;
+    text-align:center;
+    position:absolute;
+    top:300px;
+    left:0px;
+    right:0px;
+    bottom:90px;
+    margin:0;
+    padding:0;
+}
+.list_services li{
+	display:block;
+    position:relative;
+    top:0px;
+    left:10%;
+    width:80%;
+    height:1000px;
+    text-transform:uppercase;
+    font-weight:200;
+    margin-bottom:100px;
+    border:1px solid white;
+    background-color:#dcdcdc;
+}
+#cadre_neuf{
+    position:relative;
+    top:-10px;
+}
+#cadre_neuf p{
+	position:relative;
+	font-size:20px;
+	text-align:justify;
+	width:80%;
+	left:10%;
+}
+#cadre_devis{
+    position:relative;
+    top:-15px;   
+}
+#cadre_devis p{
+	position:relative;
+	font-size:20px;
+	text-align:justify;
+	width:80%;
+	left:10%;
+}
+#cadre_renov p{
+	position:relative;
+	top:-10px;
+	font-size:20px;
+	text-align:justify;
+	width:80%;
+	left:10%;
+}
+
+#cadre_photo_devis{
+    position:relative;
+    top:0px;
+    width:100%;
+    height:70%;
+    border-bottom:1px solid #333;
+}
+.list_services li h2{
+    position:relative;
+    top:0px;;
+    text-transform:uppercase;
+    font-size:35px;
+    font-weight:400;
+    color:#333;
+}
+.list_services li h3{
+    position:relative;
+    top:0px;;
+    text-transform:uppercase;
+    font-size:35px;
+    font-weight:400;
+    color:#333;
+}
+.list_services li h4{
+    position:relative;
+    top:-5px;
+    text-transform:uppercase;
+    font-size:35px;
+    font-weight:400;
+    color:#333;
+}
+/****************************************************************************/
+/****************************** LINE A PROPOS *******************************/
+#cadre_a_propos{
+    position:absolute;
+    top:1400px;
+    left:0px;
+    right:0px;
+    height:450px;
+    text-align:center;
+    background-color:rgba(62, 122, 174, 1);
+    border-bottom:1px solid #333;     
+}
+#cadre_text_a_prop{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:60%;
+    height:100%;
+    border-right:2px solid #333;
+}
+#cadre_text_a_prop h1{
+    position:absolute;
+    left:20%;
+    text-transform:uppercase;
+    font-size:45px; 
+    font-weight:100;
+    color:white;
+}
+#sep_2{
+    position:absolute;
+    top:85px;
+    width:40%;
+    height:3px;
+    left:20%;
+    background-color:white;
+}
+#cadre_text_a_prop p{
+    position:absolute;
+    top:100px;
+    left:20%;
+    width:71%;
+    text-align:justify;
+    font-size:15px; 
+    font-weight:300;
+    color:white;
+}
+#cadre_image_a_prop{
+    position:absolute;
+    top:0px;
+    left:60%;
+    width:40%;
+    height:100%;
+    border-right:2px solid #333;
+}
+#icon_a_prop{
+    height:100%;
+    width:100%;
+}
+/****************************************************************************/
+/************************ LINE PROJETS **********************************/
+#cadre_projet{
+    position:absolute;
+    top:1850px;
+    left:0px;
+    right:0px;
+    height:1050px;
+    text-align:center;
+    background-color:white;
+    border-bottom:1px solid #333;     
+}
+#cadre_projet h1{
+    position:relative;
+    top:0px;
+    text-transform:uppercase;
+    color:#333;
+    font-size:45px;
+    font-weight:100;     
+}
+#sep_3{
+    position:relative;
+    top:-20px;
+    margin:auto;
+    height:3px;
+    width:50%;
+    background-color:#333;
+}
+.ensemble_projet{
+    list-style:none;
+    position:relative;
+    top:0px;
+    width:80%;
+    height:850px;
+    margin:auto;
+    padding:0;
+}
+.ensemble_projet li{
+    position:relative;
+    top:0px;
+    width:100%;
+    height:400px;
+    margin-bottom:50px;
+}
+.cadre_det_proj{
+    display:inline-block;
+    width:35%;
+    height:100%;
+    margin-left:2%;
+    margin-right:2%;
+    text-align:center;
+    border:1px solid #333;
+    box-shadow: 0 2px 20px grey;
+}
+#cadre_proj_1{
+    color:transparent;
+}
+#cadre_proj_1 p{
+    z-index:99;
+    position:relative;
+    top:-220px;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:400;
+}
+#cadre_proj_2{
+    color:transparent;
+}
+#cadre_proj_2 p{
+    z-index:99;
+    position:relative;
+    top:-220px;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:400;
+}
+#cadre_proj_3{
+    color:transparent;
+}
+#cadre_proj_3 p{
+    z-index:99;
+    position:relative;
+    top:-220px;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:400;
+}
+#cadre_proj_4{
+    color:transparent;
+}
+#cadre_proj_4 p{
+    z-index:99;
+    position:relative;
+    top:-220px;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:400;
+}
+.cadre_det_proj:hover{
+    cursor:pointer;
+}
+#photo_proj_1{
+    z-index:90;
+    width:100%;
+    height:100%;
+}
+#photo_proj_2{
+    width:100%;
+    height:100%;
+}
+#photo_proj_3{
+    width:100%;
+    height:100%;
+}
+#photo_proj_4{
+    width:100%;
+    height:100%;
+}
+/****************************************************************************/
+/************************ LINE CONTACT **********************************/
+#cadre_contact{
+    position:absolute;
+    top:2900px;
+    left:0px;
+    right:0px;
+    height:1100px;
+    text-align:center;
+    background-color:#f5f5f5;
+    border-bottom:1px solid #333; 
+}
+#cadre_contact h1{
+    position:relative;
+    top:0;
+    font-size:45;
+    text-transform:uppercase;
+    color:#333;
+    font-weight:100;
+}
+#sep_4{
+    position:relative;
+    margin:auto;
+    top:-20px;
+    width:50%;
+    height:3px;
+    background-color:#333;
+}
+#cadre_map{
+    position:relative;
+    width:80%;
+    margin:auto;
+    height:350px;
+    border:1px solid #333;
+}
+
+#cadre_detail_contact{
+    position:relative;
+    top:50px;
+    width:80%;
+    margin:auto;
+    height:550px; 
+}
+#cadre_nous_ecrire{
+    position:absolute;
+    width:50%;
+    height:100%;
+}
+#cadre_nous_ecrire h2{
+    position:absolute;
+    top:0px;
+    font-size:25px;
+    font-weight:600;
+}
+#cadre_nous_ecrire p{
+    position:absolute;
+    top:45px;
+    text-align:left;
+    font-size:16px;
+    font-weight:300;
+}
+#mini_sep_1{
+    position:absolute;
+    top:110px;
+    width:30%;
+    height:2px; 
+    background-color:#333;    
+}
+
+#cadre_form{
+    position:absolute;
+    top:140px;
+    width:50%;
+    bottom:20px;    
+}
+
+/** FORM**/
+#input_name{
+    width:100%;
+    height:40px;
+    font-size:15px;
+    color:black;
+    padding:4px;
+    outline-style:none;
+    background-color:white;
+    border:1px solid grey;
+    border-radius:3px;
+    margin-bottom:5px;
+}
+#input_mail{
+    width:100%;
+    height:40px;
+    font-size:15px;
+    color:black;
+    padding:4px;
+    outline-style:none;
+    background-color:white;
+    border:1px solid grey;
+    border-radius:3px;
+    margin-bottom:5px;
+}
+#input_objet{
+    width:100%;
+    height:40px;
+    font-size:15px;
+    color:black;
+    padding:4px;
+    outline-style:none;
+    background-color:white;
+    border:1px solid grey;
+    border-radius:3px;
+    margin-bottom:5px;
+}
+#text_message{
+    width:100%;
+    height:200px;
+    font-size:15px;
+    color:black;
+    padding:4px;
+    outline-style:none;
+    background-color:white;
+    border:1px solid grey;
+    border-radius:3px;  
+    margin-bottom:15px;
+}
+/*******/ 
+/*** BTN ***/
+#btn_valider{
+    position:relative;
+    margin:auto;
+    width:100px;
+    height:20px;
+    text-align:center;
+    border:1px solid black;
+}
+#btn_valider p{
+    position:relative;
+    top:-10px;
+    color:white;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/***********/
+
+
+#cadre_adresse{
+    position:absolute;
+    top:0px;
+    left:60%;
+    width:40%;
+    height:100%;  
+}
+#cadre_adresse h3{
+    position:absolute;
+    top:0px;
+    font-size:25px;
+    font-weight:600; 
+}
+#cadre_adresse h4{
+    position:absolute;
+    top:40px;
+    text-align:left;
+    font-size:16px;
+    font-weight:300;
+}
+#cadre_adresse h5{
+    position:absolute;
+    top:80px;
+    text-align:left;
+    font-size:16px;
+    font-weight:200;
+}
+#cadre_adresse h6{
+    position:absolute;
+    top:95px;
+    text-align:left;
+    font-size:16px;
+    font-weight:200;
+}
+
+#mini_sep_2{
+    position:absolute;
+    top:170px;
+    width:60%; 
+    height:2px;
+    background-color:#333;  
+}
+#cadre_adresse h7{
+    position:absolute;
+    top:185px;
+    left:0px;
+    font-size:25px;
+    font-weight:600;
+}
+#mini_sep_3{
+    position:absolute;
+    top:230px;
+    width:60%; 
+    height:2px;
+    background-color:#333;  
+}
+
+#cadre_adresse h8{
+    position:absolute;
+    top:240px;
+    left:0px;
+    font-size:25px;
+    font-weight:600;
+}
+
+#cadre_adresse h9{
+    position:absolute;
+    top:280px;
+    left:0px;
+    text-align:left;
+    font-size:13px;
+    font-weight:300;
+}
+#cadre_rs_mini{
+    position:absolute;
+    top:450px;
+    left:0px;
+    width:200px;
+    height:20px;
+    text-align:left;   
+}
+.icon_rs{
+    display:inline-block;
+    position:relative;
+    top:0px;
+    width:20px;
+    height:100%;
+}
+.icon_rs:hover{
+    cursor:pointer;
+}
+/****************************************************************************/
+
+/**************************** SIGNATURE ********************************/
+#cadre_signature{
+    position:absolute;
+    top:4000px;
+    height:40px;
+    left:0px;
+    right:0px;
+    text-align:center;
+    background-color:#222;
+}
+#cadre_signature p{
+    position:relative;
+    top:0px;
+    font-size:12px;
+    color:white;
+}
+#cadre_signature a{
+    position:relative;
+    top:0px;
+    font-size:12px;
+    color:grey;
+    text-decoration:none;
+}
+/****************************************************************************/
+
+/**************** LINE DETAIL PROJET ****************************/
+/********* PROJET 1 ***********/
+#cadre_projet_1{
+    display:none;
+    position:absolute;
+    top:80px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+#line_title_proj_1{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:150px;
+    background-color:#f5f5f5;  
+}
+#line_title_proj_1 h1{
+    position:absolute;
+    top:15px;
+    left:15%;
+    font-size:40px;
+    font-weight:200;
+    text-transform:uppercase;
+
+}
+.separateur_title{
+    position:absolute;
+    top:85px;
+    left:15%;
+    width:40%;
+    height:2px;
+    background-color:rgba(62, 122, 174, 1);
+}
+#cadre_text_proj_1{
+    position:absolute;
+    top:150px;
+    left:0px;
+    bottom:30px;
+    width:50%;
+}
+#cadre_text_proj_1 p{
+    position:absolute;
+    top:5%;
+    left:30%;
+    width:60%;
+    height:80%;
+    margin:0;
+    padding:0;
+    font-weight:300;
+    text-align:justify;
+}
+#cadre_photos_proj_1{
+    position:absolute;
+    top:150px;
+    left:50%;
+    bottom:30px;
+    width:50%;
+}
+.photos_proj{
+    position:absolute;
+    top:5%;
+    left:10%;
+    width:60%;
+    height:80%;
+    text-align:justify;  
+}
+
+#cadre_mini_signature{
+    position:absolute;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align:center;
+    background-color:#333;
+}
+#cadre_mini_signature p{
+    color:white;
+    font-size:10px;
+}
+#cadre_mini_signature a{
+    color:#dcdcdc;
+    text-decoration:none;
+
+}
+
+/*** BTN ***/
+#btn_retour{
+    position:absolute;
+    bottom:110px;
+    left:15%;
+    width:100px;
+    height:40px;
+    color:orange;
+    text-align:center;
+    background-color:#333;
+}
+#btn_retour:hover{
+    cursor:pointer;
+}
+#btn_retour:active{
+    cursor:pointer;
+    position:absolute;
+    bottom:109px;
+}
+#btn_retour p{
+    position:relative;
+    top:0px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:300;
+}
+
+/********* PROJET 2 ***********/
+#cadre_projet_2{
+    display:none;
+    position:absolute;
+    top:80px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+#line_title_proj_2{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:150px;
+    background-color:#f5f5f5;  
+}
+#line_title_proj_2 h1{
+    position:absolute;
+    top:15px;
+    left:15%;
+    font-size:40px;
+    font-weight:200;
+    text-transform:uppercase;
+
+}
+.separateur_title{
+    position:absolute;
+    top:85px;
+    left:15%;
+    width:40%;
+    height:2px;
+    background-color:rgba(62, 122, 174, 1);
+}
+#cadre_text_proj_2{
+    position:absolute;
+    top:150px;
+    left:0px;
+    bottom:30px;
+    width:50%;
+}
+#cadre_text_proj_2 p{
+    position:absolute;
+    top:5%;
+    left:30%;
+    width:60%;
+    height:80%;
+    margin:0;
+    padding:0;
+    font-weight:300;
+    text-align:justify;
+}
+#cadre_photos_proj_2{
+    position:absolute;
+    top:150px;
+    left:50%;
+    bottom:30px;
+    width:50%;
+}
+.photos_proj{
+    position:absolute;
+    top:5%;
+    left:10%;
+    width:60%;
+    height:80%;
+    text-align:justify;  
+}
+
+#cadre_mini_signature{
+    position:absolute;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align:center;
+    background-color:#333;
+}
+#cadre_mini_signature p{
+    color:white;
+    font-size:10px;
+}
+#cadre_mini_signature a{
+    color:#dcdcdc;
+    text-decoration:none;
+
+}
+
+/*** BTN ***/
+#btn_retour{
+    position:absolute;
+    bottom:110px;
+    left:15%;
+    width:100px;
+    height:40px;
+    color:orange;
+    text-align:center;
+    background-color:#333;
+}
+#btn_retour:hover{
+    cursor:pointer;
+}
+#btn_retour:active{
+    cursor:pointer;
+    position:absolute;
+    bottom:109px;
+}
+#btn_retour p{
+    position:relative;
+    top:0px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:300;
+}
+
+/********* PROJET 3 ***********/
+#cadre_projet_3{
+    display:none;
+    position:absolute;
+    top:80px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+#line_title_proj_3{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:150px;
+    background-color:#f5f5f5;  
+}
+#line_title_proj_3 h1{
+    position:absolute;
+    top:15px;
+    left:15%;
+    font-size:40px;
+    font-weight:200;
+    text-transform:uppercase;
+
+}
+.separateur_title{
+    position:absolute;
+    top:85px;
+    left:15%;
+    width:40%;
+    height:2px;
+    background-color:rgba(62, 122, 174, 1);
+}
+#cadre_text_proj_3{
+    position:absolute;
+    top:150px;
+    left:0px;
+    bottom:30px;
+    width:50%;
+}
+#cadre_text_proj_3 p{
+    position:absolute;
+    top:5%;
+    left:30%;
+    width:60%;
+    height:80%;
+    margin:0;
+    padding:0;
+    font-weight:300;
+    text-align:justify;
+}
+#cadre_photos_proj_3{
+    position:absolute;
+    top:150px;
+    left:50%;
+    bottom:30px;
+    width:50%;
+}
+.photos_proj{
+    position:absolute;
+    top:5%;
+    left:10%;
+    width:60%;
+    height:80%;
+    text-align:justify;  
+}
+
+#cadre_mini_signature{
+    position:absolute;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align:center;
+    background-color:#333;
+}
+#cadre_mini_signature p{
+    color:white;
+    font-size:10px;
+}
+#cadre_mini_signature a{
+    color:#dcdcdc;
+    text-decoration:none;
+
+}
+
+/*** BTN ***/
+#btn_retour{
+    position:absolute;
+    bottom:110px;
+    left:15%;
+    width:100px;
+    height:40px;
+    color:orange;
+    text-align:center;
+    background-color:#333;
+}
+#btn_retour:hover{
+    cursor:pointer;
+}
+#btn_retour:active{
+    cursor:pointer;
+    position:absolute;
+    bottom:109px;
+}
+#btn_retour p{
+    position:relative;
+    top:0px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:300;
+}
+
+/********* PROJET 4 ***********/
+#cadre_projet_4{
+    display:none;
+    position:absolute;
+    top:80px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+#line_title_proj_4{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:150px;
+    background-color:#f5f5f5;  
+}
+#line_title_proj_4 h1{
+    position:absolute;
+    top:15px;
+    left:15%;
+    font-size:40px;
+    font-weight:200;
+    text-transform:uppercase;
+
+}
+.separateur_title{
+    position:absolute;
+    top:85px;
+    left:15%;
+    width:40%;
+    height:2px;
+    background-color:rgba(62, 122, 174, 1);
+}
+#cadre_text_proj_4{
+    position:absolute;
+    top:150px;
+    left:0px;
+    bottom:30px;
+    width:50%;
+}
+#cadre_text_proj_4 p{
+    position:absolute;
+    top:5%;
+    left:30%;
+    width:60%;
+    height:80%;
+    margin:0;
+    padding:0;
+    font-weight:300;
+    text-align:justify;
+}
+#cadre_photos_proj_4{
+    position:absolute;
+    top:150px;
+    left:50%;
+    bottom:30px;
+    width:50%;
+}
+.photos_proj{
+    position:absolute;
+    top:5%;
+    left:10%;
+    width:60%;
+    height:80%;
+    text-align:justify;  
+}
+
+#cadre_mini_signature{
+    position:absolute;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align:center;
+    background-color:#333;
+}
+#cadre_mini_signature p{
+    color:white;
+    font-size:10px;
+}
+#cadre_mini_signature a{
+    color:#dcdcdc;
+    text-decoration:none;
+
+}
+
+/*** BTN ***/
+#btn_retour{
+    position:absolute;
+    bottom:110px;
+    left:15%;
+    width:100px;
+    height:40px;
+    color:orange;
+    text-align:center;
+    background-color:#333;
+}
+#btn_retour:hover{
+    cursor:pointer;
+}
+#btn_retour:active{
+    cursor:pointer;
+    position:absolute;
+    bottom:109px;
+}
+#btn_retour p{
+    position:relative;
+    top:0px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:300;
+}
 
 }
 
