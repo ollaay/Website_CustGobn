@@ -12,7 +12,7 @@
 
     $from = $mail_emetteur;
  
-    $to = "olla.anthony@gmail.com";
+    $to = "contact@gobinolla.fr";
  
     $subject = "MESSAGE GOBINOLLA.FR:".$objet;
  
