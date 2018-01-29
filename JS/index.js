@@ -100,6 +100,29 @@ $(document).ready(function() {
         document.getElementById('photo_proj_4').style.opacity='1';
     });
 
+    /***** PARTIE SMARTPHONE *********/
+
+    $('#btn_acc_menu_smartphone').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('smartphone_menu').style.display=="block"){
+            close_menu_smart();
+        }
+        var speed = 750; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: 0 }, speed ); // Go
+        return false;
+    });
+
+    $('#btn_serv_menu_smartphone').on('click', function() { // Au clic sur un élément
+
+        if(document.getElementById('smartphone_menu').style.display=="block"){
+            close_menu_smart();
+        }
+
+        var page = "#cadre_services"; // Page cible
+        var speed = 750; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: ($(page).offset().top-350) }, speed ); // Go
+        return false;
+    });
 });
 
 function initMap() {

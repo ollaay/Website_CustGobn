@@ -109,18 +109,101 @@
     position:absolute;
     top:19%;
     left:10%;
-    height:60%;
+    height:70%;
     width:80%;
     padding:0;
     margin:0;
-    border:1px solid white;
 }
 #menu_smart li{
     position:relative;
     top:0px;
-    height:30%;
+    height:32%;
     text-align:center;
-    border-bottom:1px solid orange;
+}
+
+#btn_acc_menu_smartphone{
+    display:inline-block;
+    position:relative;
+    width:30%;
+    height:100%;
+    margin-right:60px;
+}
+#icon_menu_acc{
+    position:relative;
+    width:95%;
+}
+#btn_acc_menu_smartphone p{
+    position:relative;
+    top:-40px;
+    font-size:45px;
+    color:white;
+}
+#btn_serv_menu_smartphone{
+    display:inline-block;
+    position:relative;
+    width:30%;
+    height:100%;
+    margin-left:60px;
+}
+#btn_serv_menu_smartphone p{
+    position:relative;
+    top:-40px;
+    font-size:45px;
+    color:white;
+}
+#icon_menu_serv{
+    position:relative;
+    width:95%;  
+}
+#btn_a_prop_menu_smartphone{
+    display:inline-block;
+    position:relative;
+    width:30%;
+    height:100%;
+    margin-left:60px;
+}
+#btn_a_prop_menu_smartphone p{
+    position:relative;
+    top:-40px;
+    font-size:45px;
+    color:white;
+}
+#icon_menu_a_prop{
+    position:relative;
+    width:95%; 
+}
+#btn_proj_menu_smartphone{
+    display:inline-block;
+    position:relative;
+    width:30%;
+    height:100%;
+    margin-left:60px;
+}
+#btn_proj_menu_smartphone p{
+    position:relative;
+    top:-40px;
+    font-size:45px;
+    color:white;
+}
+#icon_menu_proj{
+    position:relative;
+    width:95%;  
+}
+#btn_contact_menu_smartphone{
+    display:inline-block;
+    position:relative;
+    width:30%;
+    height:100%;
+}
+#btn_contact_menu_smartphone p{
+    position:relative;
+    top:-40px;
+    font-size:45px;
+    color:white;
+}
+#icon_menu_contact{
+    position:relative;
+    width:95%; 
 }
 }
 
