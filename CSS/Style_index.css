@@ -56,6 +56,34 @@ body{
     position:relative;
     width:80px;
 }
+
+#cadre_rs{
+    position:relative;
+    top:90px;
+    margin:auto;
+    width:70%;
+    height:30px;
+    font-size:40px;
+    text-align:center;  
+}
+#icon_facebook{
+    display:inline-block;
+    position:relative;
+    height:100%;
+    width:30px;
+}
+#icon_facebook:hover{
+    cursor:pointer;
+}
+#icon_linkedin{
+    display:inline-block;
+    position:relative;
+    height:100%;
+    width:30px;
+}
+#icon_linkdein:hover{
+    cursor:pointer;
+}
 /**************************** LINE SERVICES *****************************/
 #cadre_services{
     position:absolute;
