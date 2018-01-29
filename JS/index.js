@@ -75,6 +75,8 @@ $(document).ready(function() {
         document.getElementById('cadre_proj_4').style.color='transparent';
         document.getElementById('photo_proj_4').style.opacity='1';
     });
+
+    remplissage_projet();
 });
 
 function initMap() {
@@ -88,4 +90,23 @@ function initMap() {
       position: uluru,
       map: map
     });
+}
+
+function click_rs_facebook(){
+    document.location.href="https://www.facebook.com/gobinentreprise/";
+}
+
+function click_rs_linkedin(){
+    document.location.href="https://fr.linkedin.com/company/gobin-olla-entreprise";
+}
+
+function remplissage_projet(){
+    document.getElementById('cadre_logo_principal').style.display='none';
+    document.getElementById('cadre_services').style.display='none';
+    document.getElementById('cadre_a_propos').style.display='none';
+    document.getElementById('cadre_projet').style.display='none';
+    document.getElementById('cadre_contact').style.display='none';
+    document.getElementById('cadre_signature').style.display='none';
+
+    document.getElementById('cadre_projet_1').style.display='block';
 }
